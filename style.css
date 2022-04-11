@@ -67,6 +67,10 @@ body {
     text-decoration: none;
     color: #ffffff;
 }
+.nav-bar li a:hover {
+    color: #f5ebd4;
+}
+
 /*FIN DEL HEADER*/
 
 /* SECCION INDEX */
