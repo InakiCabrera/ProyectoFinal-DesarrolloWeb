@@ -471,6 +471,9 @@ body {
     text-decoration: none;
     color: #ffffff
 }
+.ul-footer li a:hover {
+    color: #f5ebd4;
+}
 
 
 /* FIN DE FOOTER */
