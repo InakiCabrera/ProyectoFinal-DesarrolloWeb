@@ -36,6 +36,10 @@ body {
 .logo {
     width: 9%;
     margin: -1% 0 0 -1%;
+    transition: all .8s;
+}
+.logo:hover {
+    transform: scale(1.1);
 }
 .nav-bar {
     list-style: none;
