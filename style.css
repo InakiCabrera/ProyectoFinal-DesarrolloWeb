@@ -474,6 +474,18 @@ body {
 .ul-footer li a:hover {
     color: #f5ebd4;
 }
+.insta, .wpp, .ph {
+    transition: all .4s;
+}
+.insta:hover {
+    transform: translateY(-5px)
+}
+.wpp:hover {
+    transform: translateY(-5px);
+}
+.ph:hover {
+    transform: translateY(-5px);
+}
 
 
 /* FIN DE FOOTER */
