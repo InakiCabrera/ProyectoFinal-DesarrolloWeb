@@ -400,7 +400,7 @@ body {
 }
 
 .ul-footer {
-    
+    margin-right: 5em;
     list-style: none;
     display: flex;
     align-items: center;
