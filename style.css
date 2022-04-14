@@ -13,18 +13,7 @@ body {
         padding: 0;
     }
 /*HEADER*/
-/*
-.body-index {
-    display: grid;
-    grid-template-areas: 
-    "header header header "
-    "carrusel carrusel carrusel"
-    "nosotros nosotros nosotros "
-    "footer footer footer";
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 0fr 3fr 2fr 0.5fr ;
-}
-*/
+
 .header {
     background-color: #936b09;
     box-shadow: 0px 0px 5px ;
@@ -197,17 +186,7 @@ body {
 /* FIN PREGUNTAS FRECUENTES*/
 
 /* PRODUCTOS */
-.body-productos {
-    display: grid;
-    grid-template-areas: 
-    "header header header"
-    "lineasdebalanceados lineasdebalanceados lineasdebalanceados"
-    "section-pya section-pya section-pya"
-    "footer footer footer";
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 0fr 3fr 1fr 0.5fr ;
-    ;
-}
+
 .section-productos {
     color: #936b09;
     margin: 3em 0 0 6em; 
@@ -254,10 +233,7 @@ body {
 .ul-productos1 {
     list-style: none;
     margin-top: 3em;
-    display: grid;
-    grid-template-areas: 
-    "purina royal vital old";
-    column-gap: 5%;
+    
 }
 .ul-productos1 li h4 {
     display: flex;
@@ -284,17 +260,6 @@ body {
 /* FIN PRODUCTOS */
 
 /* FORMULARIO*/
-
-.body-form {
-    display: grid;
-    grid-template-areas: 
-    "header header header"
-    "form form form"
-    "footer footer footer"
-    ;
-
-
-}
 .div-form {
     grid-area: form;
     display: flex;
