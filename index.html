@@ -12,11 +12,11 @@
 
     <title>MR. DOG     |     INICIO</title>
 </head>
-<body class="body">
+<body class="body container-fluid">
     <!--Aca comienza el header-->
     <div class="body-index">
-        <header class="header">
-            <nav class="nav-header">
+        <header class="header row">
+            <nav class="nav-header col-12">
                 <!--Este es el logo-->
                 <img src="images/logomrdog.png" alt="" class="logo">
 
@@ -34,8 +34,9 @@
         <!--Aca termina el header-->
 
         <!--Aqui va un carrusel de 3 imagenes-->
-        <div id="carouselExampleIndicators" class="carousel slide d-flex justify-content-center my-5" data-bs-ride="carousel">
-            <div class="carousel-indicators">
+        <section class="row">
+        <div id="carouselExampleIndicators" class="carousel slide d-flex justify-content-center my-5 width-carrusel col-12" data-bs-ride="carousel">
+            <div class="carousel-indicators ">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -51,38 +52,39 @@
                 <img src="images/perroygato.jpg" class="d-block w-100 rounded" alt="...">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-
+    </section>
         <!--Aca va la seccion nosotros-->
-        <section id="nosotros" class="nosotros9">
-            <h3 class="title-nosotros">NOSOTROS</h3>
-            
-            <!--Aca va una imagen con texto encima-->
-            <div contein-image-nosotros>
-                <img src="images/panoramica.jpg" class="image-nosotros">
-                <h3 class="pet-mrdog">PET SHOP     |     MR. DOG</h3>
-            </div>
-            <div class="div-nosotros">
-                <p class="nosotros1">Nuestro pet shop posee más de 15 años de trayectoria, estamos ubicados en una
-                de las zonas mas transitadas de la ciudad de Rosario. Brindamos asesoramiento
-                para una atención mas personalizada , tenemos una amplia variedad de accesorios,
-                juguetes y alimentos para tus mascotas</p>
-                <p class="nosotros2">HACEMOS REPARTO A DOMICILIO!</p>
+        <section id="nosotros" class="nosotros9 row">
+            <div class="col-12">
+                <h3 class="title-nosotros">NOSOTROS</h3>
+                
+                <!--Aca va una imagen con texto encima-->
+                <div contein-image-nosotros>">
+                    <h3 class="pet-mrdog">PET SHOP     |     MR. DOG</h3>
+                </div>
+                <div class="div-nosotros">
+                    <p class="nosotros1">Nuestro pet shop posee más de 15 años de trayectoria, estamos ubicados en una
+                    de las zonas mas transitadas de la ciudad de Rosario. Brindamos asesoramiento
+                    para una atención mas personalizada , tenemos una amplia variedad de accesorios,
+                    juguetes y alimentos para tus mascotas</p>
+                    <p class="nosotros2">HACEMOS REPARTO A DOMICILIO!</p>
+                </div>
             </div>
         </section>
         <!--Aca termina la seccion nosotros-->
 
         <!--Aca comienza el footer-->
-        <footer class="footer">
-            <nav class="nav-footer">
+        <footer class="footer row ">
+            <nav class="nav-footer col-12">
                 <!--Redes Sociales-->
                 <div class="div-redes-footer">
                     <a href="https://www.instagram.com/petshop_mr.dog/"><img src="images/instagram.png" alt="" class="insta"></a>
