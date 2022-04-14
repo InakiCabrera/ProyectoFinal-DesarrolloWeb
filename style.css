@@ -17,7 +17,6 @@ body {
 .header {
     background-color: #936b09;
     box-shadow: 0px 0px 5px ;
-    grid-area: header;
 }
 .nav-header {
     box-shadow: 0 0 10px;
@@ -81,9 +80,6 @@ body {
     text-shadow: 2px 2px 2px #fde6ad;
     position: relative;
     bottom: 9rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .nosotros1 {
