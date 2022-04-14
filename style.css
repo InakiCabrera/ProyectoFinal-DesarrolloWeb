@@ -10,6 +10,7 @@ body {
         font-family: 'Palette Mosaic', cursive;
         background-color: #f5f5dc ;
         min-height: 100vh;
+        padding: 0;
     }
 /*HEADER*/
 /*
@@ -94,6 +95,7 @@ body {
 
 .image-nosotros {
     box-shadow: 0 0 5px #936b09;
+    
 }
 
 .pet-mrdog {
@@ -101,7 +103,7 @@ body {
     color: #936b09;
     text-shadow: 2px 2px 2px #fde6ad;
     position: relative;
-    bottom: 8rem;
+    bottom: 9rem;
     display: flex;
     justify-content: center;
     align-items: center;
