@@ -187,30 +187,54 @@ body {
 
 /* PRODUCTOS */
 
+.body-productos {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "lineasdebalanceados lineasdebalanceados lineasdebalanceados"
+    "section-pya section-pya section-pya"
+    "footer footer footer";
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 0fr 3fr 1fr 0.5fr ;
+    ;
+}
 .section-productos {
     color: #936b09;
     margin: 3em 0 0 6em; 
     
 }
+.section-lineas-de-balanceados{
+    grid-area: lineasdebalanceados;
+}
+.h3-productos {
+    grid-area: h3;
+}
+.h3-productos2{
+    grid-area: h32;
+}
 .purina {
     border-radius: 6px;
     box-shadow: 0 0 5px;
     width: 15em;
+    grid-area: purina;
 }
 .royal {
     border-radius: 6px;
     box-shadow: 0 0 5px;
     width: 15em;
+    grid-area: royal;
 }
 .vital {
     border-radius: 6px;
     box-shadow: 0 0 5px;
     width: 15em;
+    grid-area: vital
 }
 .old {
     border-radius: 6px;
     box-shadow: 0 0 5px;
     width: 15em;
+    grid-area: old;
 }
 
 .trans:hover {
@@ -220,10 +244,14 @@ body {
 .ul-productos1 {
     list-style: none;
     margin-top: 3em;
-    
+    display: grid;
+    grid-template-areas: 
+    "purina royal vital old";
+    column-gap: 5%;
 }
 .ul-productos1 li h4 {
-    margin-left: 2em;
+    display: flex;
+    justify-content: center;
 }
 
 .section-pya {
