@@ -192,38 +192,25 @@ body {
     margin: 3em 0 0 6em; 
     
 }
-.section-lineas-de-balanceados{
-    grid-area: lineasdebalanceados;
-}
-.h3-productos {
-    grid-area: h3;
-}
-.h3-productos2{
-    grid-area: h32;
-}
 .purina {
     border-radius: 6px;
     box-shadow: 0 0 5px;
     width: 15em;
-    grid-area: purina;
 }
 .royal {
     border-radius: 6px;
     box-shadow: 0 0 5px;
     width: 15em;
-    grid-area: royal;
 }
 .vital {
     border-radius: 6px;
     box-shadow: 0 0 5px;
     width: 15em;
-    grid-area: vital
 }
 .old {
     border-radius: 6px;
     box-shadow: 0 0 5px;
     width: 15em;
-    grid-area: old;
 }
 
 .trans:hover {
@@ -236,8 +223,7 @@ body {
     
 }
 .ul-productos1 li h4 {
-    display: flex;
-    justify-content: center;
+    margin-left: 2em;
 }
 
 .section-pya {
