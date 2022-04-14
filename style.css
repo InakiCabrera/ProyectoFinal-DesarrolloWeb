@@ -66,25 +66,13 @@ body {
 
 /*FIN DEL HEADER*/
 
-/* SECCION INDEX */
-
-/* FIN SECCION INDEX*/
-
 /*SECCION NOSOTROS*/
-.nosotros9 {
-    grid-area: nosotros;
-}
 .title-nosotros {
     color: #936b09;
     font-size: 2em;
-    margin-bottom: 0.5em;
-    display: flex;
-    justify-content: center;
 }
-
 .image-nosotros {
     box-shadow: 0 0 5px #936b09;
-    
 }
 
 .pet-mrdog {
@@ -114,7 +102,9 @@ body {
 /* FIN DE SECCION NOSOTROS */
 
 /* SECCION CONTACTO*/
+
 .body-contacto {
+    
     display: grid;
     grid-template-areas: 
     "header header header"
@@ -156,6 +146,7 @@ body {
 /* FIN SECCION CONTACTO*/
 
 /* SECCION PREGUNTAS FRECUENTES*/
+
 .body-pfrecuentes {
     display: grid;
     grid-template-areas: 
@@ -165,6 +156,7 @@ body {
     grid-template-columns: auto auto auto;
     grid-template-rows: 0fr 2fr 0.5fr;
 }
+
 
 .section-pfrecuentes {
     grid-area: pfrecuentes;
@@ -186,57 +178,31 @@ body {
 /* FIN PREGUNTAS FRECUENTES*/
 
 /* PRODUCTOS */
-
-.body-productos {
-    display: grid;
-    grid-template-areas: 
-    "header header header"
-    "lineasdebalanceados lineasdebalanceados lineasdebalanceados"
-    "section-pya section-pya section-pya"
-    "footer footer footer";
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 0fr 3fr 1fr 0.5fr ;
-    ;
-}
 .section-productos {
     color: #936b09;
     margin: 3em 0 0 6em; 
     
 }
-.section-lineas-de-balanceados{
-    grid-area: lineasdebalanceados;
-}
-.h3-productos {
-    grid-area: h3;
-}
-.h3-productos2{
-    grid-area: h32;
-}
 .purina {
     border-radius: 6px;
     box-shadow: 0 0 5px;
     width: 15em;
-    grid-area: purina;
 }
 .royal {
     border-radius: 6px;
     box-shadow: 0 0 5px;
     width: 15em;
-    grid-area: royal;
 }
 .vital {
     border-radius: 6px;
     box-shadow: 0 0 5px;
     width: 15em;
-    grid-area: vital
 }
 .old {
     border-radius: 6px;
     box-shadow: 0 0 5px;
     width: 15em;
-    grid-area: old;
 }
-
 .trans:hover {
     transform: scale(1.2);
     transition: all 1s;
@@ -244,19 +210,9 @@ body {
 .ul-productos1 {
     list-style: none;
     margin-top: 3em;
-    display: grid;
-    grid-template-areas: 
-    "purina royal vital old";
-    column-gap: 5%;
 }
-.ul-productos1 li h4 {
-    display: flex;
-    justify-content: center;
-}
-
 .section-pya {
     margin-top: 2em;
-    grid-area: section-pya;
 }
 .ul-productos2 {
     margin-top: 2em;
