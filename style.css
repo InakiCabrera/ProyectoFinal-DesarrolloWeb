@@ -11,6 +11,7 @@ body {
         background-color: #f5f5dc ;
         min-height: 100vh;
         padding: 0;
+        overflow-x: hidden;
     }
 /*HEADER*/
 
@@ -98,16 +99,6 @@ body {
 /* FIN DE SECCION NOSOTROS */
 
 /* SECCION CONTACTO*/
-
-.body-contacto {
-    
-    display: grid;
-    grid-template-areas: 
-    "header header header"
-    "contacto contacto contacto"
-    "footer footer footer";
-    grid-template-columns: auto auto auto;
-}
 .mapa {
     margin-top: 2em;
     display: flex;
@@ -142,20 +133,7 @@ body {
 /* FIN SECCION CONTACTO*/
 
 /* SECCION PREGUNTAS FRECUENTES*/
-
-.body-pfrecuentes {
-    display: grid;
-    grid-template-areas: 
-    "header header header"
-    "pfrecuentes pfrecuentes pfrecuentes"
-    "footer footer footer";
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 0fr 2fr 0.5fr;
-}
-
-
 .section-pfrecuentes {
-    grid-area: pfrecuentes;
     padding-bottom: 16em;
     margin: 2em 4em 0 6em;
     color: #936b09;
@@ -170,6 +148,7 @@ body {
 .p2-pfrecuentes {
     font-size: 1em;
     margin-top: 2em;
+    width: 90%;
 }
 /* FIN PREGUNTAS FRECUENTES*/
 
@@ -177,7 +156,6 @@ body {
 .section-productos {
     color: #936b09;
     margin: 3em 0 0 6em; 
-    
 }
 .purina {
     border-radius: 6px;
@@ -227,7 +205,6 @@ body {
 
 /* FORMULARIO*/
 .div-form {
-    grid-area: form;
     display: flex;
     flex-direction: column;
     justify-content: center;
