@@ -19,50 +19,19 @@ body {
     background-color: #936b09;
     box-shadow: 0px 0px 5px ;
 }
-.nav-header {
-    box-shadow: 0 0 10px;
-    color: aliceblue;
-    display: flex;
-    justify-content: space-between;
-}
-.logo {
-    width: 9%;
-    margin: -1% 0 0 -1%;
-    transition: all .8s;
-}
-.logo:hover {
-    transform: scale(1.1);
-}
-.nav-bar {
-    list-style: none;
-    margin: 0 10em 0 0;
+.menu-header {
     display: flex;
     align-items: center;
 }
-
-.index {
-    margin-right: 2em;
+.barra-menu {
+    margin-right: 10rem;
 }
-.nosotros {
-    margin-right: 2em;
+.barra-menu li a {
+    color: #fff;
 }
-.productos {
-    margin-right: 2em;
+.barra-menu li a:hover {
+    color: #413101;
 }
-.pfrecuentes {
-    margin-right: 2em;
-}
-.contacto {
-    margin-right: 2em;
-}
-.nav-bar li a {
-    text-decoration: none;
-    color: #ffffff;
-}
-.nav-bar li a:hover {
-    color: #f5ebd4;
-}
-
 
 /*FIN DEL HEADER*/
 
