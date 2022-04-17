@@ -40,6 +40,33 @@ body {
 .nosotros-title {
     color:#413101;
 }
+.tn2 {
+    display: flex;
+    justify-content: center;
+}
+.tn {
+    display: inline-block;
+    position: relative;
+}
+.tn::after,.tn::before {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 3px;
+    background-color:#413101;
+    top: 1em;
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+}
+.tn:hover::before, .tn:hover::after {
+    transform: scale(0);
+}
+.tn::before {
+    left: -420px;
+}
+.tn::after {
+    right: -420px;
+}
 .nosotros1 {
     font-size: 1em;
     color: #936b09;
