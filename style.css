@@ -271,6 +271,12 @@ body {
 
 
 /* FOOTER */
+.rs:hover {
+    transform: translateY(-9px);
+}
+.rs {
+    transition: all .35s;
+}
 
 .footer {
 
