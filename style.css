@@ -32,6 +32,12 @@ body {
 .barra-menu li a:hover {
     color: #413101;
 }
+.logo {
+    transition: all .35s;
+}
+.logo:hover {
+    transform: scale(1.1);
+}
 
 /*FIN DEL HEADER*/
 
