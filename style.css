@@ -24,7 +24,7 @@ body {
     align-items: center;
 }
 .barra-menu {
-    margin-right: 15rem;
+    margin-right: 5rem;
 }
 .barra-menu li a {
     color: #fff;
@@ -36,22 +36,10 @@ body {
 /*FIN DEL HEADER*/
 
 /*SECCION NOSOTROS*/
-.title-nosotros {
-    color: #936b09;
-    font-size: 2em;
-}
-.image-nosotros {
-    box-shadow: 0 0 5px #936b09;
-}
 
-.pet-mrdog {
-    font-size: 2em;
-    color: #936b09;
-    text-shadow: 2px 2px 2px #fde6ad;
-    position: relative;
-    bottom: 9rem;
+.nosotros-title {
+    color:#413101;
 }
-
 .nosotros1 {
     font-size: 1em;
     color: #936b09;

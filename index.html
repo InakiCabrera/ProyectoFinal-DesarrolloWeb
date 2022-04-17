@@ -84,12 +84,14 @@
         <!--Aca va la seccion nosotros-->
         <section id="nosotros" class="nosotros9 row-fluid">
             <div class="col-12">
-                <h3 class="title-nosotros mb-3 d-flex justify-content-center">NOSOTROS</h3>
+                <h3 class="title-nosotros mb-3 d-flex justify-content-center nosotros-title mb-5">NOSOTROS</h3>
                 
                 <!--Aca va una imagen con texto encima-->
-                <div class="contein-image-nosotros" >
-                    <img src="images/panoramica.jpg" class="image-nosotros w-100">
-                    <h3 class="pet-mrdog d-flex justify-content-center align-item-center">PET SHOP     |     MR. DOG</h3>
+                <div class="card text-white mb-5">
+                    <img src="images/panoramica.jpg" class="card-img progress" style="height: 300px" alt="...">
+                    <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                        <h5 class="card-title fs-1">PET SHOP | MR DOG</h5>
+                    </div>
                 </div>
                 <div class="div-nosotros">
                     <p class="nosotros1">Nuestro pet shop posee más de 15 años de trayectoria, estamos ubicados en una
@@ -104,22 +106,40 @@
 
         <!--Aca comienza el footer-->
         <footer class="footer row-fluid">
-            <nav class="nav-footer col-12 ">
-                <!--Redes Sociales-->
-                <div class="div-redes-footer">
-                    <a href="https://www.instagram.com/petshop_mr.dog/"><img src="images/instagram.png" alt="" class="insta"></a>
-                    <a href="https://api.whatsapp.com/send?phone=+5493412037400"><img src="images/whatsapp.png" alt="" class="wpp"> </a>
-                    <a href="tel:+5493412037400"><img src="images/phone.png" alt="" class="ph"></a>
-                </div>
-                <!--Barra de menu-->
-                <ul class="ul-footer mr-2">
-                    <li><a href="index.html" class="index">Inicio</a></li>
-                    <li><a href="#nosotros" class="nosotros">Nosotros</a></li>
-                    <li><a href="productos.html" class="productos">Productos</a></li>
-                    <li><a href="preguntasfrecuentes.html" class="pfrecuentes">Preguntas Frecuentes</a></li>
-                    <li><a href="contacto.html" class="contacto">Contacto</a></li>
-                    <li class="form"><a href="formulario.html">Haz tu pedido aqui!</a></li>
-                </ul>
+            <nav class="col-12 d-flex justify-content-between">
+                <nav class="navbar navbar-light d-flex justify-content-start">
+                    <div class="container">
+                        <a class="navbar-brand" href="https://api.whatsapp.com/send?phone=+5493412037400">
+                            <img src="images/iconosvg/wpp.svg" alt="" width="60px">
+                        </a>
+                        <a class="navbar-brand" href="https://www.instagram.com/petshop_mr.dog/">
+                            <img src="images/iconosvg/insta.svg" alt="" width="60px">
+                        </a>
+                    </div>
+                </nav>
+
+                <!--Esta es la barra de menu-->
+                    <ul class="nav d-flex align-items-center justify-content-end barra-menu">
+                        <li class="nav-item pe-3">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="#nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="preguntasfrecuentes.html">Preguntas Frecuentes</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="formulario.html">Haz tu pedido!</a>
+                        </li>
+                    
+                    </ul>
             </nav>
         </footer> 
     </div>
