@@ -250,8 +250,6 @@ body {
 }
 
 .exito-h1 {
-    display: flex;
-    justify-content: center;
     margin-top: 10%;
     color: #936b09;
 }
