@@ -13,8 +13,8 @@ body {
         padding: 0;
         overflow-x: hidden;
     }
-/*HEADER*/
 
+/*HEADER*/
 .header {
     background-color: #936b09;
     box-shadow: 0px 0px 5px ;
@@ -34,11 +34,9 @@ body {
 .logo:hover {
     transform: scale(1.1);
 }
-
 /*FIN DEL HEADER*/
 
 /*SECCION NOSOTROS*/
-
 .nosotros-title {
     color:#413101;
 }
@@ -81,7 +79,6 @@ body {
     color: #936b09;
     margin-left: 6.6em;
 }
-
 /* FIN DE SECCION NOSOTROS */
 
 /* SECCION CONTACTO*/
@@ -139,33 +136,12 @@ body {
     color: #936b09;
     margin: 3em 0 0 6em; 
 }
-.purina {
-    border-radius: 6px;
-    box-shadow: 0 0 5px;
-    width: 15em;
-}
-.royal {
-    border-radius: 6px;
-    box-shadow: 0 0 5px;
-    width: 15em;
-}
-.vital {
-    border-radius: 6px;
-    box-shadow: 0 0 5px;
-    width: 15em;
-}
-.old {
-    border-radius: 6px;
-    box-shadow: 0 0 5px;
-    width: 15em;
+.trans {
+    margin-right: 1em;
 }
 .trans:hover {
-    transform: scale(1.2);
-    transition: all 1s;
-}
-.ul-productos1 {
-    list-style: none;
-    margin-top: 3em;
+    transform: scale(1.03);
+    transition: all .4s;
 }
 .section-pya {
     margin-top: 2em;
@@ -205,7 +181,6 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
 }
-
 .form-row input[type="text"],
 .form-row input[type="email"],
 .form-row input[type="number"] {
@@ -248,13 +223,11 @@ body {
 .form-row button:active {
     background-color: #705206;
 }
-
 .exito-h1 {
     margin-top: 10%;
     color: #936b09;
 }
-
-
+/*Fin de seccion formulario*/
 /* FOOTER */
 .rs:hover {
     transform: translateY(-9px);
@@ -262,9 +235,7 @@ body {
 .rs {
     transition: all .35s;
 }
-
 .footer {
-
     max-width: 100%;
     position: relative;
     bottom: 0;
@@ -275,47 +246,6 @@ body {
     box-shadow: 0 0 5px;
     grid-area: footer;
 }
-.div-redes-footer {
-    padding-left: 2%;
-}
-.nav-footer {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 6em;
-}
-.nav-footer div-redes-footer a {
-    display: flex;
-    justify-content: start;
-}
-
-.ul-footer {
-    margin-right: 5em;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-}
-.ul-footer li a {
-    text-decoration: none;
-    color: #ffffff
-}
-.ul-footer li a:hover {
-    color: #f5ebd4;
-}
-.insta, .wpp, .ph {
-    transition: all .4s;
-}
-.insta:hover {
-    transform: translateY(-5px)
-}
-.wpp:hover {
-    transform: translateY(-5px);
-}
-.ph:hover {
-    transform: translateY(-5px);
-}
-
-
 /* FIN DE FOOTER */
 
 
