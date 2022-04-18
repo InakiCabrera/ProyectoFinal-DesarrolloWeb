@@ -91,32 +91,32 @@ body {
 /* SECCION CONTACTO*/
 .mapa {
     margin-top: 2em;
-    display: flex;
-    justify-content: center;
-}
-.section-contacto {
-    grid-area: contacto;
-}
 
+}
 .div-contacto {
     margin: 3em 0 0 14.4em;
 }
-
 .ul-contacto {
     list-style: none;
-    margin-top: 2em;
 }
-.li-phone {
-    margin-top: 1em;
-}
-.li-direccion {
-    margin-top: 1em;
-}
-.li-insta {
+.li-insta, .li-direccion, .li-phone, .ul-contacto {
     margin-top: 1em;
 }
 .li-insta a {
     color: #936b09;
+}
+
+.subline {
+    display: inline-block;
+    position: relative;
+}
+.subline::after {
+    content: '';
+    position: absolute;
+    width: 360px;
+    height: 2px;
+    background-color: black;
+    bottom: .2em;
 }
 
 
