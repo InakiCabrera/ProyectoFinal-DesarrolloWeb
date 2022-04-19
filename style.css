@@ -160,6 +160,7 @@ body {
     color: #936b09;
     margin: 3em 0 0 6em; 
 }
+
 .trans {
     margin-right: 1em;
 }
@@ -169,6 +170,21 @@ body {
 }
 .section-pya {
     margin-top: 2em;
+}
+
+@media screen and (max-width: 800px ) {
+    .section-pya ul li, .section-pya h3 {
+        width: 100%;
+        text-align: left;
+        margin-left: 1em;
+    }
+    .productos {
+        margin-left: 1em;
+    }
+
+    .section-productos {
+        margin-left: 0;
+    }
 }
 .ul-productos2 {
     margin-top: 2em;
