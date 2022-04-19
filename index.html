@@ -12,22 +12,40 @@
 
     <title>MR. DOG     |     INICIO</title>
 </head>
-<body class="body conteiner">
+<body class="body conteiner-fluid">
     <!--Aca comienza el header-->
     <div class="body-index">
         <header class="header row-fluid">
-            <nav class="nav-header col-12">
+            <nav class="nav-header col-12 d-flex justify-content-between">
                 <!--Este es el logo-->
-                <img src="images/logomrdog.png" alt="" class="logo">
+                <nav class="navbar navbar-light d-inline">
+                    <div class="container">
+                        <a class="navbar-brand d-flex justify-content-start logo" href="index.html">
+                            <img src="images/iconosvg/icono100.svg" alt="" width="60px">
+                        </a>
+                    </div>
+                </nav>
 
                 <!--Esta es la barra de menu-->
-                <ul class="nav-bar">
-                    <li class="index"><a href="index.html">INICIO</a></li>
-                    <li class="nosotros"><a href="#nosotros">NOSOTROS</a></li>
-                    <li class="productos"><a href="productos.html">PRODUCTOS</a></li>
-                    <li class="pfrecuentes"><a href="preguntasfrecuentes.html">PREGUNTAS FRECUENTES</a></li>
-                    <li class="contacto"><a href="contacto.html">CONTACTO</a></li>
-                    <li class="form"><a href="formulario.html">HAZ TU PEDIDO AQUI!</a></li>
+                <ul class="nav d-flex align-items-center barra-menu">
+                    <li class="nav-item pe-3">
+                        <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link" href="#nosotros">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link" href="preguntasfrecuentes.html">PREGUNTAS FRECUENTES</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formulario.html">HAZ TU PEDIDO!</a>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -35,42 +53,47 @@
 
         <!--Aqui va un carrusel de 3 imagenes-->
         <section class="row-fluid">
-        <div id="carouselExampleIndicators" class="carousel slide d-flex justify-content-center my-5 width-carrusel col-12" data-bs-ride="carousel">
-            <div class="carousel-indicators ">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <div id="carouselExampleIndicators" class="carousel slide d-flex justify-content-center my-5 width-carrusel col-12" data-bs-ride="carousel">
+                <div class="carousel-indicators ">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner w-50 ">
+                    <div class="carousel-item active">
+                        <img src="images/perro.jpg" class="d-block w-100 rounded" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/gato4.jpg" class="d-block w-100 rounded" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/perroygato.jpg" class="d-block w-100 rounded" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="carousel-inner w-50 ">
-                <div class="carousel-item active">
-                <img src="images/perro.jpg" class="d-block w-100 rounded" alt="...">
-                </div>
-                <div class="carousel-item">
-                <img src="images/gato4.jpg" class="d-block w-100 rounded" alt="...">
-                </div>
-                <div class="carousel-item">
-                <img src="images/perroygato.jpg" class="d-block w-100 rounded" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
         </section>
         <!--Aca va la seccion nosotros-->
         <section id="nosotros" class="nosotros9 row-fluid">
             <div class="col-12">
-                <h3 class="title-nosotros mb-3 d-flex justify-content-center">NOSOTROS</h3>
-                
+                <div class="tn2">
+                    <div class="tn">
+                        <h3 class="title-nosotros mb-3 nosotros-title mb-5">NOSOTROS</h3>
+                    </div>
+                </div>
                 <!--Aca va una imagen con texto encima-->
-                <div class="contein-image-nosotros" >
-                    <img src="images/panoramica.jpg" class="image-nosotros w-100">
-                    <h3 class="pet-mrdog d-flex justify-content-center align-item-center">PET SHOP     |     MR. DOG</h3>
+                <div class="card text-white mb-5">
+                    <img src="images/panoramica.jpg" class="card-img progress" style="height: 300px" alt="...">
+                    <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                        <h5 class="card-title fs-1">PET SHOP | MR DOG</h5>
+                    </div>
                 </div>
                 <div class="div-nosotros">
                     <p class="nosotros1">Nuestro pet shop posee más de 15 años de trayectoria, estamos ubicados en una
@@ -85,22 +108,42 @@
 
         <!--Aca comienza el footer-->
         <footer class="footer row-fluid">
-            <nav class="nav-footer col-12 ">
-                <!--Redes Sociales-->
-                <div class="div-redes-footer">
-                    <a href="https://www.instagram.com/petshop_mr.dog/"><img src="images/instagram.png" alt="" class="insta"></a>
-                    <a href="https://api.whatsapp.com/send?phone=+5493412037400"><img src="images/whatsapp.png" alt="" class="wpp"> </a>
-                    <a href="tel:+5493412037400"><img src="images/phone.png" alt="" class="ph"></a>
+            <nav class="col-12 d-flex justify-content-between">
+                <nav class="navbar navbar-light d-flex justify-content-start">
+                    <div class="container">
+                        <a class="navbar-brand rs" href="https://api.whatsapp.com/send?phone=+5493412037400">
+                            <img src="images/iconosvg/wpp.svg" alt="" width="50px">
+                        </a>
+                        <a class="navbar-brand rs" href="https://www.instagram.com/petshop_mr.dog/">
+                            <img src="images/iconosvg/insta.svg" alt="" width="50px">
+                        </a>
+                    </div>
+                </nav>
+
+                <!--Esta es la barra de menu-->
+                <div class=" barra-menu container d-flex align-items-center justify-content-end">
+                    <ul class="nav row">
+                        <li class="nav-item pe-3 col-sm-12 col-md-12 col-lg-2 col-xl col-xxl">
+                            <a class="nav-link active " aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item pe-3 col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2">
+                            <a class="nav-link" href="#nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item pe-3 col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item pe-3 col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2">
+                            <a class="nav-link" href="preguntasfrecuentes.html">Preguntas Frecuentes</a>
+                        </li>
+                        <li class="nav-item pe-3 col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2">
+                            <a class="nav-link" href="formulario.html">Haz tu pedido!</a>
+                        </li>
+                            
+                    </ul>
                 </div>
-                <!--Barra de menu-->
-                <ul class="ul-footer mr-2">
-                    <li><a href="index.html" class="index">Inicio</a></li>
-                    <li><a href="#nosotros" class="nosotros">Nosotros</a></li>
-                    <li><a href="productos.html" class="productos">Productos</a></li>
-                    <li><a href="preguntasfrecuentes.html" class="pfrecuentes">Preguntas Frecuentes</a></li>
-                    <li><a href="contacto.html" class="contacto">Contacto</a></li>
-                    <li class="form"><a href="formulario.html">Haz tu pedido aqui!</a></li>
-                </ul>
             </nav>
         </footer> 
     </div>
