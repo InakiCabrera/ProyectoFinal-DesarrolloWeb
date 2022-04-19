@@ -116,6 +116,7 @@ body {
     padding-bottom: 16em;
     margin: 2em 4em 0 6em;
     color: #936b09;
+    overflow: hidden;
 }
 .h3-pfrecuentes {
     font-size: 2em;
@@ -244,7 +245,13 @@ body {
     padding: 1em 0 0.5em 0;
     background-color: #936b09 ;
     box-shadow: 0 0 5px;
-    
+}
+
+@media screen and (max-width: 490px) {
+    .barra-menu {
+        display: flex;
+        justify-content: space-between
+    }
 }
 /* FIN DE FOOTER */
 
