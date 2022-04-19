@@ -96,11 +96,25 @@ body {
 .mapa {
     margin-top: 2em;
 }
+@media screen and (max-width: 810px) {
+    .mapa {
+        width: 95%;
+        margin-left: 1em;
+    }
+}
 .div-contacto {
     margin: 3em 0 0 14.4em;
 }
 .ul-contacto {
     list-style: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .div-contacto {
+        text-align: left;
+        width: 95%;
+        margin-left: 1em;
+    }
 }
 .li-insta, .li-direccion, .li-phone, .ul-contacto {
     margin-top: 1em;
