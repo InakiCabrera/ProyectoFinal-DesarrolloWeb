@@ -12,20 +12,39 @@
     <!--Aca comienza el header-->
     <div class="body-contacto ">
         <header class="header row-fluid">
-                <nav class="nav-header col-12">
-                    <!--Este es el logo-->
-                    <img src="images/logomrdog.png" alt="" class="logo">
-        
-                    <!--Esta es la barra de menu-->
-                    <ul class="nav-bar">
-                        <li class="index"><a href="index.html" class="">INICIO</a></li>
-                        <li class="nosotros"><a href="index.html#nosotros">NOSOTROS</a></li>
-                        <li class="productos"><a href="productos.html">PRODUCTOS</a></li>
-                        <li class="pfrecuentes"><a href="preguntasfrecuentes.html">PREGUNTAS FRECUENTES</a></li>
-                        <li class="contacto"><a href="contacto.html">CONTACTO</a></li>
-                        <li class="form"><a href="formulario.html">HAZ TU PEDIDO AQUI!</a></li>
-                    </ul>
+            <nav class="nav-header col-12 d-flex justify-content-between">
+                <!--Este es el logo-->
+                <nav class="navbar navbar-light d-inline">
+                    <div class="container">
+                        <a class="navbar-brand d-flex justify-content-start logo" href="index.html">
+                            <img src="images/iconosvg/icono100.svg" alt="" width="60px">
+                        </a>
+                    </div>
                 </nav>
+
+                <!--Esta es la barra de menu-->
+                    <ul class="nav d-flex align-items-center barra-menu">
+                        <li class="nav-item pe-3">
+                            <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="index.html#nosotros">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="preguntasfrecuentes.html">PREGUNTAS FRECUENTES</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="formulario.html">HAZ TU PEDIDO!</a>
+                        </li>
+                    
+                    </ul>
+            </nav>
         </header>
         <!--Aca termina el header-->
             
@@ -33,43 +52,63 @@
         <section class="section-contacto row-fluid">
                 <nav class="nav-contacto col-12">
                 <!--Aca va un mapa-->
-                <div class="mapa">
+                <div class="mapa d-flex justify-content-center">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.1035773935632!2d-60.65934228533292!3d-32.948274679299665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab6a04073e3b%3A0x6a5a142e640a8cc2!2sMr.%20Dog%20Pet&#39;s%20Shop!5e0!3m2!1ses-419!2sar!4v1646949651137!5m2!1ses-419!2sar" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
 
                 <div class="div-contacto">
-                    <h3 class="h3-contacto">CONTACTO</h3>
-                    <ul class="ul-contacto">
-                        <li>PET SHOP     |     MR.DOG</li>
-                        <li class="li-phone">341 203-7400</li>
-                        <li class="li-direccion">Esq. Mendoza y Santiago (Rosario, Santa Fe)</li>
-                        <li class="li-insta">Instagram: <a href="https://www.instagram.com/petshop_mr.dog/" >petshop_mr.dog</a></li>
-                    </ul>
+                    <div class="subline">
+                        <h3 class="h3-contacto">CONTACTO</h3>
+                    </div>
+                        <ul class="ul-contacto">
+                            <li>PET SHOP     |     MR.DOG</li>
+                            <li class="li-phone">341 203-7400</li>
+                            <li class="li-direccion">Esq. Mendoza y Santiago (Rosario, Santa Fe)</li>
+                            <li class="li-insta">Instagram: <a href="https://www.instagram.com/petshop_mr.dog/" >petshop_mr.dog</a></li>
+                        </ul>
                 </div>
                 </nav>
         </section>
         <!--Aca terminan los datos de contacto-->
 
-        <!--Aca comienza el footer-->
+    <!--Aca va el footer-->
         <footer class="footer row-fluid">
-            <nav class="nav-footer col-12">
-                <!--Redes Sociales-->
-                <div class="div-redes-footer">
-                <a href="https://www.instagram.com/petshop_mr.dog/" ><img src="images/instagram.png" alt="" class="insta"></a>
-                <a href="https://api.whatsapp.com/send?phone=+5493412037400" ><img src="images/whatsapp.png" alt="" class="wpp"></a>
-                <a href="tel:+5493412037400" ><img src="images/phone.png" alt="" class="ph"></a>
-                </div>
-                <!--Barra de menu-->
-                <ul class="ul-footer">
-                    <li><a href="index.html" class="index">Inicio</a></li>
-                    <li><a href="index.html#nosotros" class="nosotros">Nosotros</a></li>
-                    <li><a href="productos.html" class="productos">Productos</a></li>
-                    <li><a href="preguntasfrecuentes.html" class="pfrecuentes">Preguntas Frecuentes</a></li>
-                    <li><a href="contacto.html" class="contacto">Contacto</a></li>
-                    <li class="form"><a href="formulario.html">Haz tu pedido aqui!</a></li>
+            <nav class="col-12 d-flex justify-content-between">
+                <nav class="navbar navbar-light d-flex justify-content-start">
+                    <div class="container">
+                        <a class="navbar-brand rs" href="https://api.whatsapp.com/send?phone=+5493412037400">
+                            <img src="images/iconosvg/wpp.svg" alt="" width="50px">
+                        </a>
+                        <a class="navbar-brand rs" href="https://www.instagram.com/petshop_mr.dog/">
+                            <img src="images/iconosvg/insta.svg" alt="" width="50px">
+                        </a>
+                    </div>
+                </nav>
+
+                <!--Esta es la barra de menu-->
+                <ul class="nav d-flex align-items-center justify-content-end barra-menu">
+                    <li class="nav-item pe-3">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link" href="index.html#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link" href="preguntasfrecuentes.html">Preguntas Frecuentes</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formulario.html">Haz tu pedido!</a>
+                    </li>
+                    
                 </ul>
             </nav>
-        </footer> 
+        </footer>
     </div>
     <!--Aca termina el footer-->
         
