@@ -137,8 +137,11 @@ body {
         margin-left: 1em;
     }
 
-    .h3-pfrecuentes {
-        font-size: 10px;
+    .section-pfrecuentes h3 {
+        font-size: 1.5em;
+    }
+    .section-pfrecuentes p {
+        font-size: .8em;
     }
 }
 .h3-pfrecuentes {
