@@ -9,17 +9,19 @@
     padding: 1em 0 0.5em 0;
     background-color: #936b09 ;
     box-shadow: 0 0 5px;
-    nav {
-        nav {
-            .barra-menu {
 
-                @media screen and (max-width: 910px) {
-                    text-align: right;
-                    width: 100%;
-                    margin-right: 0
-                }
-                
+    nav {
+        
+        div {
+
+            @media screen and (max-width: 910px) {
+                text-align: right;
+                width: 100%;
+                margin-right: 0
             }
+        }
+        nav {
+            
             div {
                 .rs {
                     transition: all .35s;
