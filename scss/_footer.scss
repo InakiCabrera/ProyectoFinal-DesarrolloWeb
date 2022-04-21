@@ -1,0 +1,26 @@
+/* FOOTER */
+.rs:hover {
+    transform: translateY(-9px);
+}
+.rs {
+    transition: all .35s;
+}
+.footer {
+    max-width: 100%;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    margin-top: 5em;
+    padding: 1em 0 0.5em 0;
+    background-color: #936b09 ;
+    box-shadow: 0 0 5px;
+}
+
+@media screen and (max-width: 910px) {
+    .barra-menu {
+        text-align: right;
+        width: 100%;
+        margin-right: 0
+    }
+}
+/* FIN DE FOOTER */

@@ -1,0 +1,45 @@
+/* PRODUCTOS */
+.section-productos {
+    color: #936b09;
+    margin: 3em 0 0 6em; 
+}
+
+.trans {
+    margin-right: 1em;
+}
+.trans:hover {
+    transform: scale(1.03);
+    transition: all .4s;
+}
+.section-pya {
+    margin-top: 2em;
+}
+
+@media screen and (max-width: 800px ) {
+    .section-pya ul li, .section-pya h3 {
+        width: 95%;
+        text-align: left;
+        margin-left: 1em;
+    }
+    .productos {
+        margin-left: 1em;
+    }
+
+    .section-productos {
+        margin-left: 0;
+    }
+}
+.ul-productos2 {
+    margin-top: 2em;
+    list-style: none;
+}
+.li-1 {
+    margin-top: 1em;
+}
+.li-2 {
+    margin-top: 1em;
+}
+.li-3 {
+    margin-top: 1em;
+}
+/* FIN PRODUCTOS */

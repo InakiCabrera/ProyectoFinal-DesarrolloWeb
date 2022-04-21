@@ -1,0 +1,32 @@
+/* SECCION PREGUNTAS FRECUENTES*/
+.section-pfrecuentes {
+    padding-bottom: 16em;
+    margin: 2em 4em 0 6em;
+    color: #936b09;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 850px) {
+    .section-pfrecuentes {
+        text-align: left;
+        width: 95%;
+        margin-left: 1em;
+    }
+
+    .section-pfrecuentes h3 {
+        font-size: 1.7em;
+    }
+}
+.h3-pfrecuentes {
+    font-size: 2em;
+}
+.p1-pfrecuentes {
+    margin-top: 3em;
+    font-size: 1em;
+}
+.p2-pfrecuentes {
+    font-size: 1em;
+    margin-top: 2em;
+    width: 90%;
+}
+/* FIN PREGUNTAS FRECUENTES*/
