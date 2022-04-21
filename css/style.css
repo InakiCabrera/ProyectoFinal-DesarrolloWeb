@@ -231,10 +231,6 @@ div .section-pfrecuentes .p2-pfrecuentes {
 
 /* FIN PREGUNTAS FRECUENTES*/
 /* FORMULARIO*/
-.div-form {
-  line-height: 2;
-}
-
 .form-pedidos {
   background-color: #f1e4c0;
   color: #705206;
@@ -260,12 +256,10 @@ div .section-pfrecuentes .p2-pfrecuentes {
   width: 100%;
   padding: 7px;
 }
-
-.form-row label {
+.form-pedidos .form-row .label {
   margin-bottom: 15px;
 }
-
-.form-row textarea {
+.form-pedidos .form-row textarea {
   background-color: #f5f5dc;
   border: 1px solid #936b09;
   border-radius: 3px;
@@ -275,13 +269,11 @@ div .section-pfrecuentes .p2-pfrecuentes {
   min-width: 100%;
   resize: none;
 }
-
-.form-row .pedido {
+.form-pedidos .form-row .pedido {
   color: #705206;
   margin-bottom: 30px;
 }
-
-.form-row button {
+.form-pedidos .form-row button {
   font-size: 16px;
   font-weight: bold;
   color: #fff;
@@ -291,12 +283,10 @@ div .section-pfrecuentes .p2-pfrecuentes {
   padding: 10px 40px;
   cursor: pointer;
 }
-
-.form-row button:hover {
+.form-pedidos .form-row button:hover {
   background-color: #a87d0e;
 }
-
-.form-row button:active {
+.form-pedidos .form-row button:active {
   background-color: #705206;
 }
 

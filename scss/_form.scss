@@ -1,7 +1,5 @@
 /* FORMULARIO*/
-.div-form {
-    line-height: 2;
-}
+
 .form-pedidos {
     background-color: #f1e4c0;
     color: #705206;
@@ -26,42 +24,43 @@
             width: 100%;
             padding: 7px;
         }
+        .label {
+            margin-bottom: 15px;
+        }
+        textarea {
+            background-color: #f5f5dc;
+            border: 1px solid #936b09;
+            border-radius: 3px;
+            margin-bottom: 10px;
+            padding: 7px;
+            min-height: 200px;
+            min-width: 100%;
+            resize: none;
+        }
+        .pedido {
+            color: #705206;
+            margin-bottom: 30px;
+        }
+        button {
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #936b09;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 40px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #a87d0e;
+            }
+            &:active {
+                background-color: #705206;
+            }
+        }
     }
 }
 
-.form-row label {
-    margin-bottom: 15px;
-}
-.form-row textarea {
-    background-color: #f5f5dc;
-    border: 1px solid #936b09;
-    border-radius: 3px;
-    margin-bottom: 10px;
-    padding: 7px;
-    min-height: 200px;
-    min-width: 100%;
-    resize: none;
-}
-.form-row .pedido {
-    color: #705206;
-    margin-bottom: 30px;
-}
-.form-row button {
-    font-size: 16px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #936b09;
-    border: none;
-    border-radius: 3px;
-    padding: 10px 40px;
-    cursor: pointer;
-}
-.form-row button:hover {
-    background-color: #a87d0e;
-}
-.form-row button:active {
-    background-color: #705206;
-}
 .exito-h1 {
     margin-top: 10%;
     color: #936b09;
