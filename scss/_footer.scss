@@ -1,10 +1,5 @@
 /* FOOTER */
-.rs:hover {
-    transform: translateY(-9px);
-}
-.rs {
-    transition: all .35s;
-}
+
 .footer {
     max-width: 100%;
     position: relative;
@@ -14,13 +9,29 @@
     padding: 1em 0 0.5em 0;
     background-color: #936b09 ;
     box-shadow: 0 0 5px;
-}
+    nav {
+        nav {
+            .barra-menu {
+                @media screen and (max-width: 910px) {
+                    text-align: right;
+                    width: 100%;
+                    margin-right: 0
+                }
+                
+            }
+            div {
+                .rs {
+                    transition: all .35s;
 
-@media screen and (max-width: 910px) {
-    .barra-menu {
-        text-align: right;
-        width: 100%;
-        margin-right: 0
+                    &:hover {
+                        transform: translateY(-9px);
+                    }
+                }
+            }
+        }
     }
 }
+
+
+
 /* FIN DE FOOTER */

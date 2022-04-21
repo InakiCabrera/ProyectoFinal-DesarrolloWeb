@@ -320,14 +320,6 @@ body {
 
 /* FIN FORMULARIO*/
 /* FOOTER */
-.rs:hover {
-  transform: translateY(-9px);
-}
-
-.rs {
-  transition: all 0.35s;
-}
-
 .footer {
   max-width: 100%;
   position: relative;
@@ -338,14 +330,20 @@ body {
   background-color: #936b09;
   box-shadow: 0 0 5px;
 }
-
 @media screen and (max-width: 910px) {
-  .barra-menu {
+  .footer nav nav .barra-menu {
     text-align: right;
     width: 100%;
     margin-right: 0;
   }
 }
+.footer nav nav div .rs {
+  transition: all 0.35s;
+}
+.footer nav nav div .rs:hover {
+  transform: translateY(-9px);
+}
+
 /* FIN DE FOOTER */
 
 /*# sourceMappingURL=style.css.map */
