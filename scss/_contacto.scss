@@ -1,43 +1,55 @@
 /* SECCION CONTACTO*/
-.mapa {
-    margin-top: 2em;
+
+.section-contacto {
+    .nav-contacto {
+        .mapa {
+            margin-top: 2em;
+
+            @media screen and (max-width: 810px) {
+                width: 95%;
+                margin-left: 1em;
+        }
 }
-@media screen and (max-width: 810px) {
-    .mapa {
-        width: 95%;
-        margin-left: 1em;
+        .div-contacto {
+            margin: 3em 0 0 14.4em;
+
+            @media screen and (max-width: 1000px) {
+                text-align: left;
+                width: 95%;
+                margin-left: 1em;
+                }
+
+            .subline {
+                display: inline-block;
+                position: relative;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 360px;
+                    height: 2px;
+                    background-color: black;
+                    bottom: .2em;
+                }
+            }
+            .ul-contacto {
+                list-style: none;
+                margin-top: 1em;
+                .li-phone {
+                    margin-top: 1em;
+                }
+                .li-direccion {
+                    margin-top: 1em;
+                }
+                .li-insta {
+                    margin-top: 1em;
+                    a {
+                        color: #936b09;
+                    }
+                }
+            }
+        }
     }
-}
-.div-contacto {
-    margin: 3em 0 0 14.4em;
-}
-.ul-contacto {
-    list-style: none;
 }
 
-@media screen and (max-width: 1000px) {
-    .div-contacto {
-        text-align: left;
-        width: 95%;
-        margin-left: 1em;
-    }
-}
-.li-insta, .li-direccion, .li-phone, .ul-contacto {
-    margin-top: 1em;
-}
-.li-insta a {
-    color: #936b09;
-}
-.subline {
-    display: inline-block;
-    position: relative;
-}
-.subline::after {
-    content: '';
-    position: absolute;
-    width: 360px;
-    height: 2px;
-    background-color: black;
-    bottom: .2em;
-}
-/* FIN SECCION CONTACTO*/
+/* FIN CONTACTO */

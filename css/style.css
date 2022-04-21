@@ -1,11 +1,9 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap");
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap");
 
 body {
   font-family: "Palette Mosaic";
@@ -107,45 +105,30 @@ body {
 
 /* FIN NOSOTROS */
 /* SECCION CONTACTO*/
-.mapa {
+.section-contacto .nav-contacto .mapa {
   margin-top: 2em;
 }
-
 @media screen and (max-width: 810px) {
-  .mapa {
+  .section-contacto .nav-contacto .mapa {
     width: 95%;
     margin-left: 1em;
   }
 }
-.div-contacto {
+.section-contacto .nav-contacto .div-contacto {
   margin: 3em 0 0 14.4em;
 }
-
-.ul-contacto {
-  list-style: none;
-}
-
 @media screen and (max-width: 1000px) {
-  .div-contacto {
+  .section-contacto .nav-contacto .div-contacto {
     text-align: left;
     width: 95%;
     margin-left: 1em;
   }
 }
-.li-insta, .li-direccion, .li-phone, .ul-contacto {
-  margin-top: 1em;
-}
-
-.li-insta a {
-  color: #936b09;
-}
-
-.subline {
+.section-contacto .nav-contacto .div-contacto .subline {
   display: inline-block;
   position: relative;
 }
-
-.subline::after {
+.section-contacto .nav-contacto .div-contacto .subline::after {
   content: "";
   position: absolute;
   width: 360px;
@@ -153,8 +136,24 @@ body {
   background-color: black;
   bottom: 0.2em;
 }
+.section-contacto .nav-contacto .div-contacto .ul-contacto {
+  list-style: none;
+  margin-top: 1em;
+}
+.section-contacto .nav-contacto .div-contacto .ul-contacto .li-phone {
+  margin-top: 1em;
+}
+.section-contacto .nav-contacto .div-contacto .ul-contacto .li-direccion {
+  margin-top: 1em;
+}
+.section-contacto .nav-contacto .div-contacto .ul-contacto .li-insta {
+  margin-top: 1em;
+}
+.section-contacto .nav-contacto .div-contacto .ul-contacto .li-insta a {
+  color: #936b09;
+}
 
-/* FIN SECCION CONTACTO*/
+/* FIN CONTACTO */
 /* PRODUCTOS */
 .section-productos {
   color: #936b09;
