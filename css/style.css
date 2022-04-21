@@ -18,25 +18,20 @@ body {
   background-color: #936b09;
   box-shadow: 0px 0px 5px;
 }
-
-.barra-menu {
-  margin-right: 5rem;
-}
-
-.barra-menu li a {
-  color: #fff;
-}
-
-.barra-menu li a:hover {
-  color: #413101;
-}
-
-.logo {
+.header .nav-header nav div .logo {
   transition: all 0.35s;
 }
-
-.logo:hover {
+.header .nav-header nav div .logo:hover {
   transform: scale(1.1);
+}
+.header .nav-header .barra-menu {
+  margin-right: 5rem;
+}
+.header .nav-header .barra-menu li a {
+  color: #fff;
+}
+.header .nav-header .barra-menu li a:hover {
+  color: #413101;
 }
 
 /* FIN HEADER*/
