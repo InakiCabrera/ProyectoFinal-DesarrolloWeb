@@ -1,57 +1,65 @@
-/* NOSOTROS */
+.nosotros9 {
+    div {
+        .tn2 {
+            display: flex;
+            justify-content: center;
+            .tn {
+                display: inline-block;
+                position: relative;
 
-.nosotros-title {
-    color:#413101;
-}
-.tn2 {
-    display: flex;
-    justify-content: center;
-}
-.tn {
-    display: inline-block;
-    position: relative;
-}
-.tn::after,.tn::before {
-    content: '';
-    position: absolute;
-    width: 400px;
-    height: 3px;
-    background-color:#413101;
-    top: 1em;
-    transform: scale(1);
-    transition: all 0.2s ease-in-out;
-}
-.tn:hover::before, .tn:hover::after {
-    transform: scale(0);
-}
-.tn::before {
-    left: -420px;
-}
-.tn::after {
-    right: -420px;
-}
+                &::after, &::before {
+                    content: '';
+                    position: absolute;
+                    width: 400px;
+                    height: 3px;
+                    background-color:#413101;
+                    top: 1em;
+                    transform: scale(1);
+                    transition: all 0.2s ease-in-out;
+                }
 
-@media screen and (max-width: 1060px) {
-    .tn::after {
-        right: -110px;
-        width: 100px;
+                &:hover::before, &:hover::after {
+                    transform: scale(0);
+                }
+                &::before {
+                    left: -420px;
+                }
+                &::after {
+                    right: -420px;
+                }
+                .nosotros-title {
+                    color:#413101;
+                }
+
+                @media screen and (max-width: 1060px) {
+                    &::after {
+                        right: -110px;
+                        width: 100px;
+                    }
+                    &::before {
+                        left: -110px;
+                        width: 100px;
+                    }
+                }
+            }
+        }
     }
-    .tn::before {
-        left: -110px;
-        width: 100px;
+
+    .div-nosotros {
+        .nosotros1 {
+            font-size: 1em;
+            color: #936b09;
+            margin-left: 6.6em;
+            margin-right: 6.6em;
+            margin-bottom: 1em;
+        }
+        .nosotros2 {
+            font-size: 1em;
+            color: #936b09;
+            margin-left: 6.6em;
+        }
     }
-}
-.nosotros1 {
-    font-size: 1em;
-    color: #936b09;
-    margin-left: 6.6em;
-    margin-right: 6.6em;
-    margin-bottom: 1em;
-}
-.nosotros2 {
-    font-size: 1em;
-    color: #936b09;
-    margin-left: 6.6em;
+
 }
 
 /* FIN NOSOTROS */

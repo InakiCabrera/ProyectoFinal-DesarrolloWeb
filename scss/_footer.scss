@@ -12,7 +12,18 @@
 
     nav {
         
-        div {
+        .barra-menu {
+            ul {
+                li {
+                    a {
+                        color: aliceblue;
+
+                        &:hover {
+                            color: #413101 ;
+                        }
+                    }
+                }
+            }
 
             @media screen and (max-width: 910px) {
                 text-align: right;
