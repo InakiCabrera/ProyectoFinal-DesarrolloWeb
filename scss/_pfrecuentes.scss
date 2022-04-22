@@ -3,7 +3,7 @@ div {
     .section-pfrecuentes {
         padding-bottom: 16em;
         margin: 2em 4em 0 6em;
-        color: #936b09;
+        color: nth($colores, 2 );
         overflow: hidden;
         .h3 {
             @media screen and (max-width: 850px) {

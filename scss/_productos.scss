@@ -1,6 +1,6 @@
 /* PRODUCTOS */
 .section-productos {
-    color: #936b09;
+    color: nth($colores, 2 );
     margin: 3em 0 0 6em; 
 
     @media screen and (max-width: 800px ) {

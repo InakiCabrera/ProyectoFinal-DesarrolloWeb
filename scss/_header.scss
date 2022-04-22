@@ -1,7 +1,8 @@
+@import 'listas';
 
 /* HEADER */
 .header {
-    background-color: #936b09;
+    background-color: nth($colores, 2);
     box-shadow: 0px 0px 5px ;
     .nav-header {
         nav {
@@ -19,10 +20,10 @@
             margin-right: 5rem;
             li {
                 a {
-                    color: #fff;
+                    color: nth($list: $colores , $n: 3 );
 
                     &:hover {
-                        color: #413101;
+                        color: nth($colores , 4 );
                     }
                 }
             }

@@ -1,6 +1,8 @@
 /* SECCION CONTACTO*/
+@import 'listas';
 
 .section-contacto {
+    color: nth($colores, 4 );
     .nav-contacto {
         .mapa {
             margin-top: 2em;
@@ -28,7 +30,7 @@
                     position: absolute;
                     width: 360px;
                     height: 2px;
-                    background-color: black;
+                    background-color: nth($colores, 4);
                     bottom: .2em;
                 }
             }
@@ -44,7 +46,7 @@
                 .li-insta {
                     margin-top: 1em;
                     a {
-                        color: #936b09;
+                        color: nth($colores, 2);
                     }
                 }
             }

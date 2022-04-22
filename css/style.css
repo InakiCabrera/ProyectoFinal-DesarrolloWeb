@@ -90,6 +90,9 @@ body {
 
 /* FIN NOSOTROS */
 /* SECCION CONTACTO*/
+.section-contacto {
+  color: #413101;
+}
 .section-contacto .nav-contacto .mapa {
   margin-top: 2em;
 }
@@ -118,7 +121,7 @@ body {
   position: absolute;
   width: 360px;
   height: 2px;
-  background-color: black;
+  background-color: #413101;
   bottom: 0.2em;
 }
 .section-contacto .nav-contacto .div-contacto .ul-contacto {
@@ -276,7 +279,7 @@ div .section-pfrecuentes .p2-pfrecuentes {
 .form-pedidos .form-row button {
   font-size: 16px;
   font-weight: bold;
-  color: #fff;
+  color: aliceblue;
   background-color: #936b09;
   border: none;
   border-radius: 3px;

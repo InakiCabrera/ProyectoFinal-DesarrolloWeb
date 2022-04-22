@@ -1,9 +1,10 @@
 /* FORMULARIO*/
+@import 'listas';
 
 .form-pedidos {
-    background-color: #f1e4c0;
-    color: #705206;
-    border: 1px solid #936b09;
+    background-color: nth($colores, 6 );
+    color: nth($colores, 7 );
+    border: 1px solid nth($colores, 2 );
     border-radius: 5px;
     width: 80%;
     margin: 3em 0 3em 0;
@@ -18,8 +19,8 @@
         input[type="text"],
         input[type="email"],
         input[type="number"] {
-            background-color: #f8f8dc;
-            border: 1px solid #936b09;
+            background-color: nth($colores, 8 );
+            border: 1px solid nth($colores, 2 );
             border-radius: 3px;
             width: 100%;
             padding: 7px;
@@ -28,8 +29,8 @@
             margin-bottom: 15px;
         }
         textarea {
-            background-color: #f5f5dc;
-            border: 1px solid #936b09;
+            background-color: nth($colores, 1 );
+            border: 1px solid nth($colores, 2 );
             border-radius: 3px;
             margin-bottom: 10px;
             padding: 7px;
@@ -38,24 +39,24 @@
             resize: none;
         }
         .pedido {
-            color: #705206;
+            color: nth($colores, 7 );
             margin-bottom: 30px;
         }
         button {
             font-size: 16px;
             font-weight: bold;
-            color: #fff;
-            background-color: #936b09;
+            color: nth($colores, 11 );
+            background-color: nth($colores, 2 );
             border: none;
             border-radius: 3px;
             padding: 10px 40px;
             cursor: pointer;
 
             &:hover {
-                background-color: #a87d0e;
+                background-color: nth($colores, 10 );
             }
             &:active {
-                background-color: #705206;
+                background-color: nth($colores, 7 );
             }
         }
     }
@@ -63,6 +64,6 @@
 
 .exito-h1 {
     margin-top: 10%;
-    color: #936b09;
+    color: nth($colores, 2 );
 }
 /* FIN FORMULARIO*/
