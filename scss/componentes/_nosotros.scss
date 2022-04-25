@@ -1,20 +1,19 @@
 @import '../base/listas';
 @import '../base/mapas';
-
+@import '../base/extends';
+@import '../base/mixins';
 .nosotros9 {
     div {
         .tn2 {
             display: flex;
             justify-content: center;
             .tn {
-                display: inline-block;
-                position: relative;
+                @extend %display-ib-r;
 
                 &::after, &::before {
                     content: '';
                     position: absolute;
-                    width: 400px;
-                    height: 3px;
+                    @include lines (400px, 3px);
                     background-color: map-get($color-nosotros, bg-nosotros-lines);
                     top: 1em;
                     transform: scale(1);

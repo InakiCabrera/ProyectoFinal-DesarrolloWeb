@@ -1,7 +1,8 @@
 /* SECCION CONTACTO*/
 @import '../base/listas';
 @import '../base/mapas';
-
+@import '../base/extends';
+@import '../base/mixins';
 .section-contacto {
     color: map-get($color-contacto, color-section);
     .nav-contacto {
@@ -23,21 +24,18 @@
                 }
 
             .subline {
-                display: inline-block;
-                position: relative;
+                @extend %display-ib-r;
 
                 &::after {
                     content: '';
                     position: absolute;
-                    width: 360px;
-                    height: 2px;
+                    @include lines (360px, 2px);
                     background-color: map-get($color-contacto, color-bg-lines);
                     bottom: .2em;
                 }
             }
             .ul-contacto {
-                list-style: none;
-                margin-top: 1em;
+                @include ls-mt (none, 1em);
                 .li-phone {
                     margin-top: 1em;
                 }

@@ -1,0 +1,9 @@
+@mixin lines ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin ls-mt ($l-style, $m-top) {
+    list-style: $l-style;
+    margin-top: $m-top;
+}

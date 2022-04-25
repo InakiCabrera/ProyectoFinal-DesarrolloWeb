@@ -1,5 +1,8 @@
 /* PRODUCTOS */
 @import '../base/listas';
+@import '../base/mapas';
+@import '../base/extends';
+@import '../base/mixins';
 
 .section-productos {
     color: map-get($color-productos, color-section-productos);
@@ -25,8 +28,7 @@
         }
         .section-pya {
             .ul-productos2 {
-                margin-top: 2em;
-                list-style: none;
+                @include ls-mt (none, 2em);
                 .li-1 {
                     margin-top: 1em;
 
