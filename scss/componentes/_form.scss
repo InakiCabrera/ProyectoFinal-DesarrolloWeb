@@ -1,10 +1,11 @@
 /* FORMULARIO*/
 @import '../base/listas';
+@import '../base/mapas';
 
 .form-pedidos {
-    background-color: nth($colores, 6 );
-    color: nth($colores, 7 );
-    border: 1px solid nth($colores, 2 );
+    background-color: map-get($color-form, bg-form-pedidos );
+    color: map-get($color-form, color-pedidos );
+    border: 1px solid map-get($color-form, border-pedidos);
     border-radius: 5px;
     width: 80%;
     margin: 3em 0 3em 0;
@@ -19,8 +20,8 @@
         input[type="text"],
         input[type="email"],
         input[type="number"] {
-            background-color: nth($colores, 8 );
-            border: 1px solid nth($colores, 2 );
+            background-color: map-get($color-form, bg-input );
+            border: 1px solid map-get($color-form, border-input);
             border-radius: 3px;
             width: 100%;
             padding: 7px;
@@ -29,8 +30,8 @@
             margin-bottom: 15px;
         }
         textarea {
-            background-color: nth($colores, 1 );
-            border: 1px solid nth($colores, 2 );
+            background-color: map-get($color-form, bg-textarea);
+            border: 1px solid map-get($color-form, border-textarea);
             border-radius: 3px;
             margin-bottom: 10px;
             padding: 7px;
@@ -39,24 +40,24 @@
             resize: none;
         }
         .pedido {
-            color: nth($colores, 7 );
+            color: map-get($color-form, color-pedido);
             margin-bottom: 30px;
         }
         button {
             font-size: 16px;
             font-weight: bold;
-            color: nth($colores, 11 );
-            background-color: nth($colores, 2 );
+            color: map-get($color-form, color-button);
+            background-color: map-get($color-form, bg-button);
             border: none;
             border-radius: 3px;
             padding: 10px 40px;
             cursor: pointer;
 
             &:hover {
-                background-color: nth($colores, 10 );
+                background-color: map-get($color-form, bg-button-hover);
             }
             &:active {
-                background-color: nth($colores, 7 );
+                background-color: map-get($color-form, bg-button-active);
             }
         }
     }
@@ -64,6 +65,6 @@
 
 .exito-h1 {
     margin-top: 10%;
-    color: nth($colores, 2 );
+    color: map-get($color-form, color-exito);
 }
 /* FIN FORMULARIO*/

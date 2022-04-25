@@ -1,4 +1,5 @@
 @import '../base/listas';
+@import '../base/mapas';
 
 .nosotros9 {
     div {
@@ -14,7 +15,7 @@
                     position: absolute;
                     width: 400px;
                     height: 3px;
-                    background-color: nth($colores, 4 );
+                    background-color: map-get($color-nosotros, bg-nosotros-lines);
                     top: 1em;
                     transform: scale(1);
                     transition: all 0.2s ease-in-out;
@@ -30,7 +31,7 @@
                     right: -420px;
                 }
                 .nosotros-title {
-                    color: nth($colores, 4 );
+                    color: map-get($color-nosotros, color-nosotros-title);
                 }
 
                 @media screen and (max-width: 1060px) {
@@ -50,14 +51,14 @@
     .div-nosotros {
         .nosotros1 {
             font-size: 1em;
-            color: nth($colores, 2 );
+            color: map-get($color-nosotros, color-div-nosotros);
             margin-left: 6.6em;
             margin-right: 6.6em;
             margin-bottom: 1em;
         }
         .nosotros2 {
             font-size: 1em;
-            color: nth($colores, 2 );
+            color: map-get($color-nosotros, color-div-nosotros);
             margin-left: 6.6em;
         }
     }

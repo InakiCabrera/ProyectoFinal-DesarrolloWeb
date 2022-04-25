@@ -2,7 +2,7 @@
 @import '../base/listas';
 
 .section-productos {
-    color: nth($colores, 2 );
+    color: map-get($color-productos, color-section-productos);
     margin: 3em 0 0 6em; 
 
     @media screen and (max-width: 800px ) {
@@ -10,6 +10,7 @@
     }
     div {
         .productos {
+            margin-bottom: 2em;
             @media screen and (max-width: 800px ) {
                 margin-left: 1em;
             }
@@ -23,7 +24,6 @@
             }
         }
         .section-pya {
-            margin-top: 2em;
             .ul-productos2 {
                 margin-top: 2em;
                 list-style: none;

@@ -1,5 +1,6 @@
 /* FOOTER */
 @import '../base/listas';
+@import '../base/mapas';
 
 .footer {
     max-width: 100%;
@@ -8,7 +9,7 @@
     right: 0;
     margin-top: 5em;
     padding: 1em 0 0.5em 0;
-    background-color: nth($colores, 2 ) ;
+    background-color: map-get($color-footer, bg-footer );
     box-shadow: 0 0 5px;
 
     nav {
@@ -17,10 +18,10 @@
             ul {
                 li {
                     a {
-                        color: nth($colores, 11 );
+                        color: map-get($color-footer, color-menu-a );
 
                         &:hover {
-                            color: nth($colores, 4) ;
+                            color: map-get($color-footer, color-menu-a-hover ) ;
                         }
                     }
                 }

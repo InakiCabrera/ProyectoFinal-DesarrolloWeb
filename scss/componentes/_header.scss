@@ -1,8 +1,9 @@
 @import '../base/listas';
+@import '../base/mapas';
 
 /* HEADER */
 .header {
-    background-color: nth($colores, 2);
+    background-color: map-get($color-header, bg-header);
     box-shadow: 0px 0px 5px ;
     .nav-header {
         nav {
@@ -20,10 +21,10 @@
             margin-right: 5rem;
             li {
                 a {
-                    color: nth($list: $colores , $n: 3 );
+                    color: map-get($color-header, color-barra-menu);
 
                     &:hover {
-                        color: nth($colores , 4 );
+                        color: map-get($color-header, color-barra-menu-hover);
                     }
                 }
             }

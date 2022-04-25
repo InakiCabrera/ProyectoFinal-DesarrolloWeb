@@ -1,0 +1,53 @@
+@import '../base/listas';
+
+$color-contacto: (
+    color-section: nth($colores, 4 ),
+    color-bg-lines: nth($colores, 4 ),
+    color-li-insta: nth($colores , 2 )
+);
+
+$color-body: (
+    bg: nth($colores, 1 )
+);
+
+$color-footer: (
+    bg-footer: nth($colores , 2 ),
+    color-menu-a: nth($colores, 11 ),
+    color-menu-a-hover: nth($colores, 4 )
+);
+
+$color-form: (
+    bg-form-pedidos: nth($colores, 6 ),
+    color-pedidos: nth($colores, 7 ),
+    border-pedidos: nth($colores, 2 ),
+    bg-input: nth($colores, 8 ),
+    border-input: nth($colores, 2 ),
+    bg-textarea: nth($colores, 1 ),
+    border-textarea: nth($colores, 2 ),
+    color-pedido: nth($colores, 7 ),
+    color-button: nth($colores, 11 ),
+    bg-button: nth($colores, 2 ),
+    bg-button-hover: nth($colores, 10 ),
+    bg-button-active: nth($colores, 7 ),
+    color-exito: nth($colores, 2 )
+);
+
+$color-header: (
+    bg-header: nth($colores, 2),
+    color-barra-menu: nth($list: $colores , $n: 3 ),
+    color-barra-menu-hover: nth($list: $colores , $n: 4)
+);
+
+$color-nosotros: (
+    bg-nosotros-lines: nth($colores, 4 ),
+    color-nosotros-title: nth($colores, 4 ),
+    color-div-nosotros: nth($colores, 2)
+);
+
+$color-pfrecuentes: (
+    color-section-pfrecuentes: nth($colores, 2 )
+);
+
+$color-productos: (
+    color-section-productos: nth($colores, 2 )
+);

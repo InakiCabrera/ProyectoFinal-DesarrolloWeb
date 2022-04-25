@@ -1,10 +1,10 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap");
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
-@import url("https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap");
+
 body {
   font-family: "Palette Mosaic";
   background-color: #f5f5dc;
@@ -152,6 +152,9 @@ body {
     margin-left: 0;
   }
 }
+.section-productos div .productos {
+  margin-bottom: 2em;
+}
 @media screen and (max-width: 800px) {
   .section-productos div .productos {
     margin-left: 1em;
@@ -163,9 +166,6 @@ body {
 .section-productos div .productos .trans:hover {
   transform: scale(1.03);
   transition: all 0.4s;
-}
-.section-productos div .section-pya {
-  margin-top: 2em;
 }
 .section-productos div .section-pya .ul-productos2 {
   margin-top: 2em;

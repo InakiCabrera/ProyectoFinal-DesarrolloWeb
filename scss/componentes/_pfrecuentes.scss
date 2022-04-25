@@ -1,11 +1,13 @@
 /* SECCION PREGUNTAS FRECUENTES*/
 @import '../base/listas';
+@import '../base/mapas';
+
 
 div {
     .section-pfrecuentes {
         padding-bottom: 16em;
         margin: 2em 4em 0 6em;
-        color: nth($colores, 2 );
+        color: map-get($color-pfrecuentes, color-section-pfrecuentes);
         overflow: hidden;
         .h3 {
             @media screen and (max-width: 850px) {

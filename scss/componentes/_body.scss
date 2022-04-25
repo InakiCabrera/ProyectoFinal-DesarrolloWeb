@@ -1,4 +1,5 @@
 @import '../base/listas';
+@import '../base/mapas';
 
 *{
     margin: 0%;
@@ -10,7 +11,7 @@
 
 body {
         font-family: 'Palette Mosaic';
-        background-color: nth($colores, 1 ) ;
+        background-color: map-get($color-body, bg );
         min-height: 100vh;
         padding: 0;
         overflow-x: hidden;
