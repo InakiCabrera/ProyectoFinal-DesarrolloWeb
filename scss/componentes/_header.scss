@@ -5,11 +5,15 @@
 .header {
     background-color: map-get($color-header, bg-header);
     box-shadow: 0px 0px 5px ;
+    
     .nav-header {
+        @media screen and (max-width: 450px) {
+            padding-bottom: 0;
+        }
         nav {
             @media screen and (max-width: 450px) {
                 padding: 0;
-                margin: 1em;
+                margin: 0 1em;
             }
             div {
                 @media screen and (max-width: 450px) {
@@ -40,7 +44,7 @@
         }
         .barra-menu {
             margin-right: 5rem;
-
+            
             li {
                 @media  screen and (max-width: 1250px) {
                     display: none;
