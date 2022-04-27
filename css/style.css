@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap");
+
 * {
   margin: 0%;
   padding: 0%;
@@ -30,6 +30,7 @@ body {
   .header .nav-header nav div .logo {
     display: flex;
     justify-content: flex-start;
+    margin: 0 0;
   }
 }
 .header .nav-header nav div .logo:hover {
@@ -126,6 +127,9 @@ body {
     left: -110px;
     width: 100px;
   }
+}
+.nosotros9 div div .ps-md {
+  padding: 0;
 }
 .nosotros9 .div-nosotros .nosotros1 {
   font-size: 1em;
