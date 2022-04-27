@@ -58,6 +58,9 @@ body {
 .header .nav-header .menu-desplegable ul li a:hover {
   background-color: #a87d0e;
 }
+.header .nav-header .menu-desplegable button {
+  padding: 0.375em 1.5em 0.375em 1.5em;
+}
 .header .nav-header .menu-desplegable button:focus {
   box-shadow: none;
 }
@@ -69,7 +72,7 @@ body {
 @media screen and (max-width: 1250px) {
   .header .nav-header .menu-desplegable {
     margin: 1em;
-    border-radius: 10px;
+    border-radius: 5px;
   }
   .header .nav-header .menu-desplegable:hover {
     background-color: #a87d0e;

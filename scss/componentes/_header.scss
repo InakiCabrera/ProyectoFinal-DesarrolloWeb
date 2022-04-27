@@ -52,7 +52,7 @@
 
             }
             button {
-                
+                padding: .375em 1.5em .375em 1.5em;
                 &:focus {
                     box-shadow: none;
                 }
@@ -63,7 +63,7 @@
             }
             @media screen and (max-width: 1250px) {
                 margin: 1em;
-                border-radius: 10px;
+                border-radius: 5px;
                 &:hover {
                     background-color: map-get($color-header, bg-menu-desplegable );
                 }
