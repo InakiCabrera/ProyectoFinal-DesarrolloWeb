@@ -8,9 +8,13 @@
     .nav-header {
         nav {
             @media screen and (max-width: 450px) {
-                padding-top: 0;
+                padding: 0;
+                margin: 1em;
             }
             div {
+                @media screen and (max-width: 450px) {
+                    padding: 0;
+                }
                 .logo {
                     @media screen and (max-width: 450px ) {
                         padding: 0;

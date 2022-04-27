@@ -25,7 +25,13 @@ body {
 }
 @media screen and (max-width: 450px) {
   .header .nav-header nav {
-    padding-top: 0;
+    padding: 0;
+    margin: 1em;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header .nav-header nav div {
+    padding: 0;
   }
 }
 .header .nav-header nav div .logo {
