@@ -23,8 +23,18 @@ body {
   background-color: #936b09;
   box-shadow: 0px 0px 5px;
 }
+@media screen and (max-width: 450px) {
+  .header .nav-header nav {
+    padding-top: 0;
+  }
+}
 .header .nav-header nav div .logo {
   transition: all 0.35s;
+}
+@media screen and (max-width: 450px) {
+  .header .nav-header nav div .logo {
+    padding: 0;
+  }
 }
 @media screen and (max-width: 450px) {
   .header .nav-header nav div .logo img {
