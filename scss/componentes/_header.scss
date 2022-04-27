@@ -38,6 +38,9 @@
             }
         }
         .menu-desplegable {
+            height: 55px;
+            width: 55px;
+            right: 1em;
             ul {
                 background-color: map-get($color-header, bg-header );
                 li {
@@ -52,6 +55,7 @@
 
             }
             button {
+                margin: 0 0 0 -5px;
                 &:focus {
                     box-shadow: none;
                 }
