@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -25,6 +25,11 @@ body {
 }
 .header .nav-header nav div .logo {
   transition: all 0.35s;
+}
+@media screen and (max-width: 450px) {
+  .header .nav-header nav div .logo img {
+    width: 45px;
+  }
 }
 @media screen and (max-width: 1250px) {
   .header .nav-header nav div .logo {
@@ -67,6 +72,11 @@ body {
 .header .nav-header .menu-desplegable button {
   margin: 0 0 0 -5px;
 }
+@media screen and (max-width: 450px) {
+  .header .nav-header .menu-desplegable button img {
+    width: 30px;
+  }
+}
 .header .nav-header .menu-desplegable button:focus {
   box-shadow: none;
 }
@@ -82,6 +92,12 @@ body {
   }
   .header .nav-header .menu-desplegable:hover {
     background-color: #a87d0e;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header .nav-header .menu-desplegable {
+    width: 45px;
+    height: 45px;
   }
 }
 
