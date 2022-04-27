@@ -11,6 +11,10 @@
                 .logo {
                     transition: all .35s;
 
+                    @media screen and (max-width: 1250px) {
+                        display: flex;
+                        justify-content: flex-start;
+                    }
                     &:hover {
                         transform: scale(1.1);
                     }
@@ -19,7 +23,11 @@
         }
         .barra-menu {
             margin-right: 5rem;
+
             li {
+                @media  screen and (max-width: 1250px) {
+                    display: none;
+                }
                 a {
                     color: map-get($color-header, color-barra-menu);
 
@@ -27,6 +35,38 @@
                         color: map-get($color-header, color-barra-menu-hover);
                     }
                 }
+            }
+        }
+        .menu-desplegable {
+            ul {
+                background-color: map-get($color-header, bg-header );
+                li {
+                    a {
+                        color: map-get($color-header, color-barra-menu );
+
+                        &:hover {
+                            background-color: map-get($color-header, bg-menu-desplegable);
+                        }
+                    }
+                }
+
+            }
+            button {
+                &:focus {
+                    box-shadow: none;
+                }
+
+            }
+            @media screen and (min-width: 1250px) {
+                display: none;
+            }
+            @media screen and (max-width: 1250px) {
+                margin: 1em;
+                border-radius: 10px;
+                &:hover {
+                    background-color: map-get($color-header, bg-menu-desplegable );
+                }
+                
             }
         }
     }

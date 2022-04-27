@@ -7,6 +7,8 @@
         .tn2 {
             display: flex;
             justify-content: center;
+
+            margin-top: 3em;
             .tn {
                 @extend %display-ib-r;
 
@@ -31,6 +33,7 @@
                 }
                 .nosotros-title {
                     color: map-get($color-nosotros, color-nosotros-title);
+
                 }
 
                 @media screen and (max-width: 1060px) {

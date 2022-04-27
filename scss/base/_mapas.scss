@@ -13,7 +13,8 @@ $color-body: (
 $color-footer: (
     bg-footer: nth($colores , 2 ),
     color-menu-a: nth($colores, 11 ),
-    color-menu-a-hover: nth($colores, 4 )
+    color-menu-a-hover: nth($colores, 4 ),
+    bg-menu-desplegable: nth($colores, 10 )
 );
 
 $color-form: (
@@ -35,7 +36,8 @@ $color-form: (
 $color-header: (
     bg-header: nth($colores, 2),
     color-barra-menu: nth($list: $colores , $n: 3 ),
-    color-barra-menu-hover: nth($list: $colores , $n: 4)
+    color-barra-menu-hover: nth($list: $colores , $n: 4),
+    bg-menu-desplegable: nth($colores, 10 )
 );
 
 $color-nosotros: (

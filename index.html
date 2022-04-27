@@ -27,32 +27,45 @@
                 </nav>
 
                 <!--Esta es la barra de menu-->
-                <ul class="nav d-flex align-items-center barra-menu">
-                    <li class="nav-item pe-3">
-                        <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
-                    </li>
-                    <li class="nav-item pe-3">
-                        <a class="nav-link" href="#nosotros">NOSOTROS</a>
-                    </li>
-                    <li class="nav-item pe-3">
-                        <a class="nav-link" href="productos.html">PRODUCTOS</a>
-                    </li>
-                    <li class="nav-item pe-3">
-                        <a class="nav-link" href="preguntasfrecuentes.html">PREGUNTAS FRECUENTES</a>
-                    </li>
-                    <li class="nav-item pe-3">
-                        <a class="nav-link" href="contacto.html">CONTACTO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="formulario.html">HAZ TU PEDIDO!</a>
-                    </li>
-                </ul>
+                    <ul class="nav d-flex align-items-center barra-menu">
+                        <li class="nav-item pe-3">
+                            <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="#nosotros">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="preguntasfrecuentes.html">PREGUNTAS FRECUENTES</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="formulario.html">HAZ TU PEDIDO!</a>
+                        </li>
+                    </ul>
+                    <div class="dropdown menu-desplegable">
+                        <button class="btn btn-ligth " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="images/menudesplegable.png" alt="Menu desplegable">
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+                            <li><a class="dropdown-item" href="#nosotros">Nosotros</a></li>
+                            <li><a class="dropdown-item" href="productos.html">Productos</a></li>
+                            <li><a class="dropdown-item" href="preguntasfrecuentes.html">Preguntas Frecuentes</a></li>
+                            <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+                            <li><a class="dropdown-item" href="formulario.html">Haz tu pedido!</a></li>
+                        </ul>
+                    </div>
             </nav>
         </header>
         <!--Aca termina el header-->
 
         <!--Aqui va un carrusel de 3 imagenes-->
-        <section class="row-fluid">
+        <section class="row-fluid carrusel">
             <div id="carouselExampleIndicators" class="carousel slide d-flex justify-content-center my-5 width-carrusel col-12" data-bs-ride="carousel">
                 <div class="carousel-indicators ">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -90,7 +103,7 @@
                 </div>
                 <!--Aca va una imagen con texto encima-->
                 <div class="card text-white mb-5">
-                    <img src="images/panoramica.jpg" class="card-img progress" style="height: 300px" alt="...">
+                    <img src="images/panoramica.jpg" class="card-img progress image-panoramic" style="height: 300px" alt="...">
                     <div class="card-img-overlay d-flex align-items-center justify-content-center">
                         <h5 class="card-title fs-1">PET SHOP | MR DOG</h5>
                     </div>

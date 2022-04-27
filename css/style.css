@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap");
+
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
-
+@import url("https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap");
 body {
   font-family: "Palette Mosaic";
   background-color: #f5f5dc;
@@ -13,6 +13,11 @@ body {
   overflow-x: hidden;
 }
 
+@media screen and (max-width: 1250px) {
+  .carrusel {
+    display: none;
+  }
+}
 /* HEADER */
 .header {
   background-color: #936b09;
@@ -21,17 +26,54 @@ body {
 .header .nav-header nav div .logo {
   transition: all 0.35s;
 }
+@media screen and (max-width: 1250px) {
+  .header .nav-header nav div .logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
 .header .nav-header nav div .logo:hover {
   transform: scale(1.1);
 }
 .header .nav-header .barra-menu {
   margin-right: 5rem;
 }
+@media screen and (max-width: 1250px) {
+  .header .nav-header .barra-menu li {
+    display: none;
+  }
+}
 .header .nav-header .barra-menu li a {
   color: #fff;
 }
 .header .nav-header .barra-menu li a:hover {
   color: #413101;
+}
+.header .nav-header .menu-desplegable ul {
+  background-color: #936b09;
+}
+.header .nav-header .menu-desplegable ul li a {
+  color: #fff;
+}
+.header .nav-header .menu-desplegable ul li a:hover {
+  background-color: #a87d0e;
+}
+.header .nav-header .menu-desplegable button:focus {
+  box-shadow: none;
+}
+@media screen and (min-width: 1250px) {
+  .header .nav-header .menu-desplegable {
+    display: none;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .header .nav-header .menu-desplegable {
+    margin: 1em;
+    border-radius: 10px;
+  }
+  .header .nav-header .menu-desplegable:hover {
+    background-color: #a87d0e;
+  }
 }
 
 /* FIN HEADER*/
@@ -43,6 +85,7 @@ body {
 .nosotros9 div .tn2 {
   display: flex;
   justify-content: center;
+  margin-top: 3em;
 }
 .nosotros9 div .tn2 .tn::after, .nosotros9 div .tn2 .tn::before {
   content: "";
