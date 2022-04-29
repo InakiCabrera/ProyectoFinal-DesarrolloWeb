@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -122,17 +123,17 @@ body {
 }
 
 /* FIN HEADER*/
-.section-contacto .nav-contacto .div-contacto .subline, .nosotros9 nav .tn2 .tn {
+.section-contacto .nav-contacto .div-contacto .subline, .nosotros9 .nav-nos .tn2 .tn {
   display: inline-block;
   position: relative;
 }
 
-.nosotros9 nav .tn2 {
+.nosotros9 .nav-nos .tn2 {
   display: flex;
   justify-content: center;
   margin-top: 3em;
 }
-.nosotros9 nav .tn2 .tn::after, .nosotros9 nav .tn2 .tn::before {
+.nosotros9 .nav-nos .tn2 .tn::after, .nosotros9 .nav-nos .tn2 .tn::before {
   content: "";
   position: absolute;
   width: 400px;
@@ -142,30 +143,30 @@ body {
   transform: scale(1);
   transition: all 0.2s ease-in-out;
 }
-.nosotros9 nav .tn2 .tn:hover::before, .nosotros9 nav .tn2 .tn:hover::after {
+.nosotros9 .nav-nos .tn2 .tn:hover::before, .nosotros9 .nav-nos .tn2 .tn:hover::after {
   transform: scale(0);
 }
-.nosotros9 nav .tn2 .tn::before {
+.nosotros9 .nav-nos .tn2 .tn::before {
   left: -420px;
 }
-.nosotros9 nav .tn2 .tn::after {
+.nosotros9 .nav-nos .tn2 .tn::after {
   right: -420px;
 }
-.nosotros9 nav .tn2 .tn .nosotros-title {
+.nosotros9 .nav-nos .tn2 .tn .nosotros-title {
   color: #413101;
   font-size: 2em;
 }
 @media screen and (max-width: 1060px) {
-  .nosotros9 nav .tn2 .tn::after {
+  .nosotros9 .nav-nos .tn2 .tn::after {
     right: -110px;
     width: 100px;
   }
-  .nosotros9 nav .tn2 .tn::before {
+  .nosotros9 .nav-nos .tn2 .tn::before {
     left: -110px;
     width: 100px;
   }
 }
-.nosotros9 nav div .ps-md {
+.nosotros9 .nav-nos div .ps-md {
   padding: 0;
 }
 .nosotros9 .div-nosotros .nosotros1 {
@@ -183,7 +184,7 @@ body {
 
 /* FIN NOSOTROS */
 /* SECCION CONTACTO*/
-.section-contacto .nav-contacto .div-contacto .subline, .nosotros9 nav .tn2 .tn {
+.section-contacto .nav-contacto .div-contacto .subline, .nosotros9 .nav-nos .tn2 .tn {
   display: inline-block;
   position: relative;
 }
@@ -240,7 +241,7 @@ body {
 
 /* FIN CONTACTO */
 /* PRODUCTOS */
-.nosotros9 nav .tn2 .tn, .section-contacto .nav-contacto .div-contacto .subline {
+.nosotros9 .nav-nos .tn2 .tn, .section-contacto .nav-contacto .div-contacto .subline {
   display: inline-block;
   position: relative;
 }
@@ -306,28 +307,28 @@ body {
 
 /* FIN PRODUCTOS */
 /* SECCION PREGUNTAS FRECUENTES*/
-section .section-pfrecuentes {
+.section-pf .section-pfrecuentes {
   padding-bottom: 16em;
   margin: 2em 4em 0 6em;
   color: #936b09;
   overflow: hidden;
 }
 @media screen and (max-width: 850px) {
-  section .section-pfrecuentes .h3 {
+  .section-pf .section-pfrecuentes .h3 {
     font-size: 1.7em;
   }
 }
-section .section-pfrecuentes .p1-pfrecuentes {
+.section-pf .section-pfrecuentes .p1-pfrecuentes {
   margin-top: 3em;
   font-size: 1em;
 }
-section .section-pfrecuentes .p2-pfrecuentes {
+.section-pf .section-pfrecuentes .p2-pfrecuentes {
   font-size: 1em;
   margin-top: 2em;
   width: 90%;
 }
 @media screen and (max-width: 850px) {
-  section .section-pfrecuentes {
+  .section-pf .section-pfrecuentes {
     text-align: left;
     width: 95%;
     margin-left: 1em;
@@ -433,7 +434,7 @@ section .section-pfrecuentes .p2-pfrecuentes {
 }
 
 /* FIN DE FOOTER */
-.nosotros9 nav .tn2 .tn, .section-contacto .nav-contacto .div-contacto .subline {
+.nosotros9 .nav-nos .tn2 .tn, .section-contacto .nav-contacto .div-contacto .subline {
   display: inline-block;
   position: relative;
 }
