@@ -7,10 +7,10 @@
     box-sizing: border-box
     } 
     
-@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body {
-        font-family: 'Palette Mosaic';
+        font-family: 'Poppins', sans-serif;
         background-color: map-get($color-body, bg );
         min-height: 100vh;
         padding: 0;
