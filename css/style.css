@@ -158,12 +158,12 @@ body {
 }
 @media screen and (max-width: 1060px) {
   .nosotros9 .nav-nos .tn2 .tn::after {
-    right: -110px;
-    width: 100px;
+    right: -90px;
+    width: 80px;
   }
   .nosotros9 .nav-nos .tn2 .tn::before {
-    left: -110px;
-    width: 100px;
+    left: -90px;
+    width: 80px;
   }
 }
 .nosotros9 .nav-nos div .ps-md {
