@@ -202,19 +202,18 @@ body {
   }
 }
 .section-contacto .nav-contacto .div-contacto {
-  margin: 3em 0 0 14.4em;
+  margin: 3em 0 0 1em;
 }
 @media screen and (max-width: 1000px) {
   .section-contacto .nav-contacto .div-contacto {
     text-align: left;
     width: 95%;
-    margin-left: 1em;
   }
 }
 .section-contacto .nav-contacto .div-contacto .subline::after {
   content: "";
   position: absolute;
-  width: 360px;
+  width: 300px;
   height: 2px;
   background-color: #413101;
   bottom: 0.2em;
@@ -260,7 +259,7 @@ body {
 }
 @media screen and (max-width: 800px) {
   .section-productos nav .productos {
-    margin-left: 1em;
+    width: 80%;
   }
 }
 .section-productos nav .productos .trans {

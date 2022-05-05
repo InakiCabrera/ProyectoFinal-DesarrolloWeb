@@ -15,12 +15,11 @@
         }
 }
         .div-contacto {
-            margin: 3em 0 0 14.4em;
+            margin: 3em 0 0 1em;
             
             @media screen and (max-width: 1000px) {
                 text-align: left;
                 width: 95%;
-                margin-left: 1em;
                 }
 
             .subline {
@@ -29,7 +28,7 @@
                 &::after {
                     content: '';
                     position: absolute;
-                    @include lines (360px, 2px);
+                    @include lines (300px, 2px);
                     background-color: map-get($color-contacto, color-bg-lines);
                     bottom: .2em;
                 }
